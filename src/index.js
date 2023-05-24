@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import PeopleCounter  from './components/people-counter/PoelpeCounter';
+import MyRoutes from './routes';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <PeopleCounter />
+    <MyRoutes />
   </React.StrictMode>
 );
