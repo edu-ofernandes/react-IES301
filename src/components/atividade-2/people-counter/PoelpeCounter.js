@@ -36,7 +36,7 @@ export default function PeopleCounter() {
     }
 
     return (
-        <div className="container d-flex justify-content-center align-items-center">
+        <div className="container-people d-flex justify-content-center align-items-center">
             <div className="people-counter-card">
                 <div className="people-counter-card-header d-flex justify-content-between align-items-center mb-1 p-1">
                     <div>
